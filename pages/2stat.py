@@ -10,7 +10,6 @@ st.write('您的出發日期是:', d)
 x=pd.read_csv('./pages/airport2.csv')
 # x1=x.values.tolist()#把機場名稱轉成list
 
-d
 
 option = st.selectbox(
     '請選擇出發州別',
