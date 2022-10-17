@@ -7,7 +7,7 @@ d = st.date_input(
     datetime.datetime.now(),min_value=datetime.datetime.now(),max_value=datetime.datetime.now()+datetime.timedelta(days=183),help='請選擇出發日期')
 st.write('您的出發日期是:', d)
 
-x=pd.read_csv('./pages/airport2.csv')
+x=pd.read_csv('./pages/airport3.csv')
 # x1=x.values.tolist()#把機場名稱轉成list
 
 
